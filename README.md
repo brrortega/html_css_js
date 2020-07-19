@@ -1,6 +1,6 @@
 # webdevelopment
 
-HTML, CSS, and Javascript for Web Developers
+HTML, CSS, and Javascript
 
 mod2_solution: https://brrortega.github.io/webdevelopment/mod2_solution/
 
