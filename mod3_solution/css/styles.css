@@ -1,0 +1,133 @@
+body{
+    background-color: #013B53 !important;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    background-color: silver;
+}
+
+.log{
+    margin-right: 10%;
+    width: 90px;
+    height: 90px;
+}
+
+.navbar-brand h1{
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#nav-list a, .navbar-brand span{
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+
+.navbar button.navbar-toggler:hover {
+    background-color:lightgoldenrodyellow;
+}
+
+.navbar button.navbar-toggler{
+    border:1px black solid;
+}
+
+.container-fluid .row{
+    margin: 50px 0.5px 0px 0.5px;
+}
+
+.row .section{
+    background-color: silver;
+    padding: 3%;
+    margin-bottom: 10%;
+}
+
+.row .section p{
+    text-align: justify;
+    overflow: auto;
+    height: 700px;
+}
+
+#nav1{
+    background-color: tan;
+}
+
+#nav2{
+    background-color: sandybrown;
+}
+
+#nav3{
+    background-color:khaki;
+}
+
+#heading h2{
+    padding-top: 5%;
+    color: white;
+    
+}
+
+.navbar .navbar-nav>.nav-item {
+    float: none;
+    margin-left: .1rem;
+}
+.navbar .navbar-nav {
+    float:none !important;
+    max-height: 240px;
+    overflow: auto;
+}
+.navbar .collapse.in, .navbar .collapsing  {
+    clear:both;
+}
+
+/*Desktop*/
+@media(min-width:1200px) {
+    
+}
+
+/*Desktop*/
+@media(min-width:992px) and (max-width:1199px){
+    
+}
+/*Tablet*/
+@media(min-width:768px) and (max-width:991px){
+    .log{
+        margin-right: 10%;
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #nav-list a, .navbar-brand span{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+    }
+
+}
+/*Mobile*/
+@media(max-width:767px) {
+    .log{
+        margin-right: 10%;
+        width: 80px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+    }
+    #nav-list a, .navbar-brand span{
+        font-size: 18px;
+        color: black;
+        text-align: center;
+    }
+    
+    
+}
+
+
